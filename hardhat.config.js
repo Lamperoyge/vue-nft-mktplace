@@ -11,12 +11,12 @@ module.exports = {
     },
     mumbai: {
       url:
-        "https://polygon-mumbai.infura.io/v3/9f7f1b65f5064109a05d257770ffd4ce",
+        `https://polygon-mumbai.infura.io/v3/${process.env.POLYGON_PROJECT_ID}`,
       accounts: [privateKey]
     },
     mainnet: {
       url:
-        "https://polygon-mainnet.infura.io/v3/9f7f1b65f5064109a05d257770ffd4ce",
+        `https://polygon-mainnet.infura.io/v3/${process.env.POLYGON_PROJECT_ID}`,
         accounts: [privateKey]
     },
   },
