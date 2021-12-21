@@ -1,10 +1,14 @@
 export const config = [
   {
     title: 'Home',
-    path: '/'
+    path: '/',
   },
   {
     title: 'Create',
-    path: '/create'
-  }
-]
+    path: '/create',
+  },
+  {
+    title: 'Explore',
+    path: '/explore',
+  },
+];

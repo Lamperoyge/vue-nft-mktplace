@@ -4,11 +4,11 @@
 </template>
 
 <script>
-import Header from "./components/header";
-import './index.css'
+import Header from './components/header';
+import './index.css';
 
 export default {
-  name: "App",
+  name: 'App',
   components: {
     Header,
   },
