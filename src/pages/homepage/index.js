@@ -1,8 +1,9 @@
 import axios from 'axios';
 import { ethers } from 'ethers';
-import Web3Modal from 'web3modal';
+// import Web3Modal from 'web3modal';
 import { nftaddress, nftmarketaddress } from '../../config';
 import Homepage from './Homepage';
+import Drops from '../../components/drops/Drops.vue';
 import { buttonsConfig } from './constants';
 
 import NFT from '../../abis/nft.json';
@@ -14,6 +15,9 @@ Homepage.data = () => ({
   isLoading: false,
 });
 
+Homepage.components = {
+  Drops,
+};
 Homepage.methods = {
   loadNfts: async function() {
     this.isLoading = true;

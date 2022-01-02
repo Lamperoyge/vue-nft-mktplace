@@ -6,7 +6,11 @@
       >
         Discover, collect, and sell extraordinary NFTs
       </h1>
-      <h2 class="w-6/12 py-5 text-left text-2xl py-2 font-medium tracking-wider	uppercase">on the world's largest NFT marketplace</h2>
+      <h2
+        class="w-6/12 py-5 text-left text-2xl py-2 font-medium tracking-wider	uppercase"
+      >
+        on the world's largest NFT marketplace
+      </h2>
       <div class="py-5 flex justify-between w-6/12">
         <div v-for="button in buttonsConfig" :key="button.title">
           <router-link :to="button.path">
@@ -25,4 +29,5 @@
       />
     </div>
   </section>
+  <Drops />
 </template>

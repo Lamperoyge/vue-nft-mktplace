@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="sticky top-0 z-50 px-4 py-5 bg-originalWhite items-center flex justify-between text-black"
+    class="sticky top-0 z-50 px-4 py-5 bg-white items-center flex justify-between text-black"
   >
     <router-link to="/">
       <div class="cursor-pointer flex lg:w-6/12 relative">
